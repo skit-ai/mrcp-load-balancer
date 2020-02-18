@@ -49,9 +49,9 @@ Check the `load_balancer` default table data [here](dbtext/load_balancer)
 
 ### Traditional Request/Response trace
 
-![traditional](https://gitlab.com/vernacularai/voice-services/opensips-mrcp/-/blob/master/images/lb.png "Traditional SIP trace")
+![traditional](images/lb.png "Traditional SIP trace")
 
 ### Request/Response trace with Load Balancer
 
-![lb.png](https://gitlab.com/vernacularai/voice-services/opensips-mrcp/-/blob/master/images/traditional.png "Load Balancer SIP trace")
+![lb](images/traditional.png "Load Balancer SIP trace")
 
