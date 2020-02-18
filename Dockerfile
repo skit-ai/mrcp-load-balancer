@@ -23,5 +23,3 @@ EXPOSE 9060
 
 CMD ["./opensips", "-F", "-f", "configs/opensips.cfg"]
 
-
-
