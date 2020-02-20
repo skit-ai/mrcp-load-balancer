@@ -5,7 +5,7 @@ RUN apt-get update
 RUN apt-get install -y wget gcc make perl libdbi-perl libdbd-pg-perl \
     libfrontier-rpc-perl libterm-readline-gnu-perl libberkeleydb-perl \
     ncurses-dev apt-utils libssl-dev build-essential openssl bison flex \
-    pkg-config
+    pkg-config sngrep vim gettext-base
 
 WORKDIR /usr/src/
 
