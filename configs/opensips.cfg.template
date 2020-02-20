@@ -11,7 +11,7 @@ log_level=${LOG_LEVEL}
 
 log_stderror=no
 log_facility=LOG_LOCAL0
-children=8
+children=${NUM_CHILDREN}
 
 /* uncomment the following lines to enable debugging */
 debug_mode=${DEBUG_MODE}
