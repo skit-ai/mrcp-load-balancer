@@ -98,7 +98,7 @@ modparam("acc", "detect_direction", 0)
 #### DIALOG module
 loadmodule "dialog.so"
 modparam("dialog", "dlg_match_mode", 1)
-modparam("dialog", "default_timeout", 21600)  # 6 hours timeout
+modparam("dialog", "default_timeout", 1800)  # 30 minutes
 modparam("dialog", "db_mode", 2)
 modparam("dialog", "db_url", "text:///usr/src/opensips-2.4.7/dbtext")
 
