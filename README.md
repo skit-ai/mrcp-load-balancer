@@ -1,6 +1,6 @@
 # opensips-mrcp
 
-An MRCP server load balancer using OpenSIPS.
+An MRCP server load balancer using OpenSIPS 2.4.7 (LTS).
 
 ## How to run?
 
@@ -49,9 +49,9 @@ Check the `load_balancer` default table data [here](dbtext/load_balancer)
 
 ### Traditional Request/Response trace
 
-![traditional](images/lb.png "Traditional SIP trace")
+![traditional](images/traditional.png "Traditional SIP trace")
 
 ### Request/Response trace with Load Balancer
 
-![lb](images/traditional.png "Load Balancer SIP trace")
+![lb](images/lb.png "Load Balancer SIP trace")
 
